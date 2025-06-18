@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "ev Downloader",
+  "version": "1.0",
+  "description": "Añade un botón que permite descargar documentos a los que se les ha inhabilitado el botón de descarga.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"]
+}
